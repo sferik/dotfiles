@@ -1,0 +1,20 @@
+# This makes the "delete" key work rather than just entering a ~
+"\e[3~": delete-char
+
+# These allow you to use ctrl+left/right arrow keys to jump the cursor over words
+"\e[5C": forward-word
+"\e[5D": backward-word
+
+# These allow you to start typing a command and use the up/down arrow to auto complete from commands in your history
+"\e[B": history-search-forward
+"\e[A": history-search-backward
+
+# This lets you hit tab to auto-complete a file or directory name ignoring case
+set completion-ignore-case On
+
+# I'm not sure what keys these are!
+"\e[1~": beginning-of-line
+"\e[4~": end-of-line
+"\e[5~": beginning-of-history
+"\e[6~": end-of-history
+"\e[2~": quoted-insert
