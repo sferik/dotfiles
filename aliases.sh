@@ -1,2 +1,8 @@
-alias ll='/bin/ls -AFGHhl'
-alias ls='/bin/ls -FGH'
+alias ll="/bin/ls -AFGHhl"
+alias ls="/bin/ls -FGH"
+alias 187="echo Yeah, and you don\'t stop. Cause it\'s 187 on an undercover cop.; rvm use 1.8.7"
+alias 192="rvm use 1.9.2"
+alias jruby="rvm use jruby"
+alias macruby="rvm use macruby"
+alias ree="rvm use ree"
+alias rbx="rvm use rubinius"
