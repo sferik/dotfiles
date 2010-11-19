@@ -6,7 +6,8 @@ Installation
 ------------
     git clone git://github.com/ryanb/dotfiles
     cd dotfiles
-    thor dotfiles:install
+    bundle install
+    bundle exec thor dotfiles:install
 
 Inspiration
 -----------
