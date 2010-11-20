@@ -8,7 +8,7 @@ class Dotfiles < Thor
   def install
     Dir['*'].each do |file|
       next if %w[Gemfile Gemfile.lock Thorfile README.mkd LICENSE.mkd].include? file
-      copy_file(file, "~#{@user}/.#{file}", options[:force])
+      link_file(file, "~#{@user}/.#{file}", options[:force])
     end
   end
 end
