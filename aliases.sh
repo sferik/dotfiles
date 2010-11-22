@@ -8,3 +8,4 @@ for ruby in ${rubies[@]}
 do
   alias $ruby="rvm use $ruby"
 done
+alias update_ports="sudo port selfupdate && sudo port upgrade outdated && sudo port uninstall inactive"
