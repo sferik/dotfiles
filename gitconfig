@@ -7,7 +7,7 @@
   status = auto
 [color "branch"]
   current = yellow reverse
-  local = yellow 
+  local = yellow
   remote = green
 [color "diff"]
   meta = yellow bold
@@ -26,3 +26,5 @@
   df = diff
   lg = log -p
   l1 = log --pretty=oneline --abbrev-commit
+[core]
+  quotepath = false
