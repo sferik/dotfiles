@@ -43,7 +43,7 @@ fi
 if [ "$color_prompt" = yes ]; then
     PS1="\[$(tput bold)\]\[$(tput setaf 2)\]\u@\H \[$(tput sgr0)\]\[$(tput setaf 4)\]\w\[$(tput sgr0)\]/ \[$(tput bold)\]\[$(tput setaf 3)\]\$(__git_ps1 '± %s ')\n\[$(tput setaf 1)\]\$(~/.rvm/bin/rvm-prompt) \[$(tput setaf 0)\]:\! > \[$(tput sgr0)\]"
 else
-    PS1='\u@\h:\W '
+    PS1="\u@\H \w/ \$(__git_ps1 '± %s ')\n\$(~/.rvm/bin/rvm-prompt) :\! > "
 fi
 unset color_prompt
 
