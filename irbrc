@@ -10,6 +10,10 @@ begin
   require 'irb/completion'
   IRB.conf[:USE_READLINE] = true
 
+  require 'wirble'
+  Wirble.init
+  Wirble.colorize
+
   # Easily print methods local to an object's class
   class Object
     def local_methods
