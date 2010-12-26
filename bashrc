@@ -46,5 +46,3 @@ else
     PS1="\u@\H \w/ \$(__git_ps1 '± %s ')\n\$(~/.rvm/bin/rvm-prompt) :\! > "
 fi
 unset color_prompt
-
-ssh-add ~/.ssh/id_dsa
