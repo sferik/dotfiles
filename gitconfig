@@ -19,7 +19,7 @@
   changed = green
   untracked = cyan
 [alias]
-  st = status
+  st = status -bs
   ci = commit
   br = branch
   co = checkout
