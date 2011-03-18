@@ -8,8 +8,14 @@ class Dotfiles < Thor
   def install
     Dir['*'].each do |file|
       next if %w[Gemfile Gemfile.lock Thorfile README.mkd LICENSE.mkd screenshots].include? file
-      link_file(file, "~/Library/Preferences/com.apple.Terminal.plist", options[:force]) if file == "com.apple.Terminal.plist"
-      link_file(file, "~#{@user}/.#{file}", options[:force])
+      case file
+      when "com.apple.Terminal.plist"
+        link_file(file, "~/Library/Preferences/com.apple.Terminal.plist", options[:force])
+      when "default.gems"
+        link_file(file, "~/.rvm/gemsets/default.gems", options[:force])
+      else
+        link_file(file, "~#{@user}/.#{file}", options[:force])
+      end
     end
   end
 end
