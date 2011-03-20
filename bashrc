@@ -1,5 +1,5 @@
 export INPUTRC="~/.inputrc"
-export PATH="$PATH:~/bin"
+export PATH="/usr/local/bin:/usr/local/sbin:$PATH:~/bin"
 export EDITOR=`which vim`
 
 # Source global definitions
