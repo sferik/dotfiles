@@ -17,7 +17,6 @@ alias tu="top -o cpu"
 default_gems="builder bundler hoe hoe-seattlerb minitest rak rake ruby-graphviz rubygems-test session thor wirble"
 alias install_gems="rvm system; sudo gem install $default_gems; rvm use jruby; gem install $default_gems; rvm use rbx; gem install $default_gems; rvm use ree; gem install $default_gems; rvm use 1.8.6; gem install $default_gems; rvm use 1.8.7; gem install $default_gems; rvm use 1.9.1; gem install $default_gems; rvm use 1.9.2; gem install $default_gems"
 alias update_gems="rvm system && sudo gem update && yes | sudo gem cleanup && rvm use jruby && gem update && yes | gem cleanup && rvm use rbx && gem update && yes | gem cleanup && rvm use ree && gem update && yes | gem cleanup && rvm use 1.8.6 && gem update && yes | gem cleanup && rvm use 1.8.7 && gem update && yes | gem cleanup && rvm use 1.9.1 && gem update && yes | gem cleanup && rvm use 1.9.2 && gem update && yes | gem cleanup"
-alias update_ports="sudo port selfupdate && sudo port upgrade outdated && sudo port uninstall inactive"
 
 alias 186="rvm use 1.8.6"
 alias 187="rvm use 1.8.7"
