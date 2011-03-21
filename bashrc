@@ -8,6 +8,9 @@ export EDITOR=`which vim`
 # Source global aliases
 [[ -s "$HOME/.aliases.sh" ]] && source "$HOME/.aliases.sh"
 
+# Bash completion
+[[ -s `brew --prefix`/etc/bash_completion ]] && source `brew --prefix`/etc/bash_completion
+
 # Git completion
 [[ -s "$HOME/.git-completion.sh" ]] && source "$HOME/.git-completion.sh"
 
