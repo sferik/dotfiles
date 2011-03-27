@@ -33,18 +33,18 @@ shopt -s checkwinsize
 [ -x /usr/bin/lesspipe ] && eval "$(lesspipe)"
 
 if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
-    # We have color support; assume it's compliant with Ecma-48
-    # (ISO/IEC-6429). (Lack of such support is extremely rare, and such
-    # a case would tend to support setf rather than setaf.)
-    color_prompt=yes
+  # We have color support; assume it's compliant with Ecma-48
+  # (ISO/IEC-6429). (Lack of such support is extremely rare, and such
+  # a case would tend to support setf rather than setaf.)
+  color_prompt=yes
 else
-    color_prompt=
+  color_prompt=
 fi
 
 if [ "$color_prompt" = yes ]; then
-    PS1="\[$(tput bold)\]\[$(tput setaf 2)\]\u@\H\[$(tput sgr0)\] \[$(tput setaf 4)\]\w\[$(tput bold)\]\[$(tput setaf 3)\]\$(__git_ps1 ' ± %s')\[$(tput sgr0)\]\n\[$(tput bold)\]\[$(tput setaf 1)\]\$(~/.rvm/bin/rvm-prompt) \[$(tput sgr0)\]>"
+  PS1="\[$(tput bold)\]\[$(tput setaf 2)\]\u@\H\[$(tput sgr0)\] \[$(tput setaf 4)\]\w\[$(tput bold)\]\[$(tput setaf 3)\]\$(__git_ps1 ' ± %s')\[$(tput sgr0)\]\n\[$(tput bold)\]\[$(tput setaf 1)\]\$(~/.rvm/bin/rvm-prompt) \[$(tput sgr0)\]> "
 else
-    PS1="\u@\H \w \$(__git_ps1 '± %s ')\n\$(~/.rvm/bin/rvm-prompt) >"
+  PS1="\u@\H \w \$(__git_ps1 '± %s ')\n\$(~/.rvm/bin/rvm-prompt) > "
 fi
 unset color_prompt
 
