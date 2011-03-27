@@ -5,6 +5,24 @@ rescue Exception => ex
 end
 
 begin
+  require 'term/ansicolor'
+  include Term::ANSIColor
+  rvm = %x(~/.rvm/bin/rvm-prompt).chomp
+  IRB.conf[:PROMPT][:CUSTOM] = {
+    :PROMPT_I => "#{red(bold(rvm))} > ",
+    :PROMPT_S => "#{red(bold(rvm))} %l> ",
+    :PROMPT_C => "#{red(bold(rvm))} > ",
+    :PROMPT_N => "#{red(bold(rvm))} ?> ",
+    :PROMPT_N => "  ",
+    :RETURN => " => %s \n",
+    :AUTO_INDENT => true,
+  }
+  IRB.conf[:PROMPT_MODE] = :CUSTOM
+rescue Exception => ex
+  warn "Warning in .irbrc: #{ex.inspect}"
+end
+
+begin
   # Histories
   require 'irb/ext/save-history'
   IRB.conf[:SAVE_HISTORY] = 1000
