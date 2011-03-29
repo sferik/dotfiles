@@ -20,9 +20,10 @@ alias update_gems="gem update && yes | gem cleanup"
 
 alias 186="rvm use 1.8.6"
 alias 187="rvm use 1.8.7"
-alias 191="rvm use 1.9.1"
+alias 191="rvm use 1.9.1-p378"
+alias 431="rvm use 1.9.1-p431"
 alias 192="rvm use 1.9.2"
-rubies=(ironruby jruby macruby maglev mput rbx ree)
+rubies=(goruby ironruby jruby kiji macruby maglev mput rbx ree)
 for ruby in ${rubies[@]}
 do
   alias $ruby="rvm use $ruby"
