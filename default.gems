@@ -1,7 +1,6 @@
 builder
 bundler
 hoe
-hoe-seattlerb
 minitest
 rak
 rake
