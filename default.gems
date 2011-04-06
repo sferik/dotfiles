@@ -7,6 +7,5 @@ rake
 ruby-graphviz
 rubygems-test
 session
-term-ansicolor
 thor
 wirble
