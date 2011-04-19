@@ -4,6 +4,7 @@ hoe
 minitest
 rak
 rake
+rbench
 ruby-graphviz
 rubygems-test
 session
