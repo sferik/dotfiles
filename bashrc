@@ -41,9 +41,26 @@ else
   color_prompt=
 fi
 
+function parse_git_deleted {
+  [[ $(git status 2> /dev/null | grep deleted:) != "" ]] && echo "-"
+}
+function parse_git_added {
+  [[ $(git status 2> /dev/null | grep "Untracked files:") != "" ]] && echo '+'
+}
+function parse_git_modified {
+  [[ $(git status 2> /dev/null | grep modified:) != "" ]] && echo "*"
+}
+function parse_git_dirty {
+  # [[ $(git status 2> /dev/null | tail -n1) != "nothing to commit (working directory clean)" ]] && echo "☠"
+  echo "$(parse_git_added)$(parse_git_modified)$(parse_git_deleted)"
+}
+function parse_git_branch {
+  echo "$(parse_git_dirty)$(__git_ps1 '%s')"
+}
+
 if [ "$color_prompt" = yes ]; then
-  PS1="\[$(tput bold)\]\[$(tput setaf 2)\]\u@\H\[$(tput sgr0)\] \[$(tput setaf 4)\]\w\[$(tput bold)\]\[$(tput setaf 3)\]\$(__git_ps1 ' ± %s')\[$(tput sgr0)\]\n\[$(tput bold)\]\[$(tput setaf 1)\]\$(~/.rvm/bin/rvm-prompt) \[$(tput sgr0)\]> "
+  PS1="\[$(tput bold)\]\[$(tput setaf 2)\]\u@\H\[$(tput sgr0)\] \[$(tput setaf 4)\]\w\[$(tput bold)\]\[$(tput setaf 3)\] \$(parse_git_branch)\[$(tput sgr0)\]\n\[$(tput bold)\]\[$(tput setaf 1)\]\$(~/.rvm/bin/rvm-prompt) \[$(tput sgr0)\]> "
 else
-  PS1="\u@\H \w \$(__git_ps1 '± %s ')\n\$(~/.rvm/bin/rvm-prompt) > "
+  PS1="\u@\H \w \$(parse_git_branch)\n\$(~/.rvm/bin/rvm-prompt) > "
 fi
 unset color_prompt
