@@ -8,8 +8,3 @@ verbose: true
 bulk_threshold: 1000
 sources:
 - http://rubygems.org/
-test_options:
-  auto_test_on_install: true
-  install_development_dependencies: true
-  force_install: true
-  force_uninstall_on_failure: false
