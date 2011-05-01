@@ -34,7 +34,7 @@ set ignorecase
 set autowrite
 
 " Backspace and cursor keys wrap
-set whichwrap+=<,>,h,l  
+set whichwrap+=<,>,h,l
 
 " Allow backspacing over everything in insert mode.
 set backspace=start,indent,eol
@@ -49,7 +49,7 @@ set backupdir=~/tmp
 set directory=~/tmp
 
 " Turn on wild menu
-set wildmenu 
+set wildmenu
 
 " Path/file expansion in colon-mode.
 set wildmode=longest:full,list:full,list:longest
@@ -70,13 +70,13 @@ set nobackup
 " Highlight search matches
 set hlsearch
 
-" Enable syntax highlighting
-syntax on
-
 " Enable filetype-specific indenting and plugins
 filetype on
 filetype indent on
 filetype plugin on
+
+" Enable syntax highlighting
+syntax enable
 
 " Use brighter colors if has a dark background.
 set background=dark
@@ -94,7 +94,7 @@ set isk+=_,$,@,%,#,-
 " set viminfo+=!
 
 " How many lines of history to remember
-set history=1000 
+set history=1000
 
 " Space it out a little more (easier to read)
 set lsp=0
@@ -106,10 +106,10 @@ set laststatus=2
 set statusline=%F%h%m%w%r\ %Y\ (%{&ff})%=\ %c%V,\ %l/%L\ (%P)
 
 " Make backspace work normal
-set backspace=2 
+set backspace=2
 
 " Use mouse everywhere
-set mouse=a 
+set mouse=a
 
 " Tell us when anything is changed via :...
 set report=0
