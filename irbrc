@@ -21,14 +21,6 @@ rescue Exception => ex
   warn "Warning in .irbrc: #{ex.inspect}"
 end
 
-begin
-  require 'wirble'
-  Wirble.init
-  Wirble.colorize
-rescue Exception => ex
-  warn "Warning in .irbrc: #{ex.inspect}"
-end
-
 # Easily print methods local to an object's class
 class Object
   def local_methods
