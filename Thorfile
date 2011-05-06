@@ -7,7 +7,7 @@ class Dotfiles < Thor
   method_options :force => :boolean
   def install
     Dir['*'].each do |file|
-      next if %w[Gemfile Gemfile.lock Thorfile README.mkd LICENSE.mkd screenshots].include? file
+      next if %w[Gemfile Gemfile.lock Thorfile README.md LICENSE.md screenshots].include? file
       case file
       when "com.apple.Terminal.plist"
         link_file(file, "~/Library/Preferences/com.apple.Terminal.plist", options[:force])
