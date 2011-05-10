@@ -1,6 +1,7 @@
 export INPUTRC="~/.inputrc"
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH:~/bin"
 export EDITOR=`which vim`
+export PROMPT_COMMAND="history -a"
 
 # Source global definitions
 [[ -s "/etc/bashrc" ]] && source "/etc/bashrc"
