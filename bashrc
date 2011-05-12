@@ -1,6 +1,7 @@
 export INPUTRC="~/.inputrc"
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH:~/bin"
 export EDITOR=`which vim`
+# Whenever displaying the prompt, write the previous line to disk.
 export PROMPT_COMMAND="history -a"
 
 # Source global definitions
@@ -29,6 +30,9 @@ shopt -s cdspell
 # Check the window size after each command and, if necessary,
 # Update the values of LINES and COLUMNS.
 shopt -s checkwinsize
+
+# Make Bash append rather than overwrite the history on disk.
+shopt -s histappend
 
 # Make 'less' more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(lesspipe)"
