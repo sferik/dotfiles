@@ -13,6 +13,7 @@ class Dotfiles < Thor
         link_file(file, "~/Library/Preferences/com.apple.Terminal.plist", options[:force])
       when "default.gems"
         link_file(file, "~/.rvm/gemsets/default.gems", options[:force])
+        link_file(file, "~/.rvm/gemsets/global.gems", options[:force])
       else
         link_file(file, "~#{@user}/.#{file}", options[:force])
       end
