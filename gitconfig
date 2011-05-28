@@ -23,8 +23,10 @@
   ci = commit
   br = branch
   co = checkout
-  df = diff
+  df = diff --word-diff
   lg = log -p
-  l1 = log --pretty=oneline --abbrev-commit
+  l1 = log --oneline --decorate
 [core]
   quotepath = false
+[push]
+  default = tracking
