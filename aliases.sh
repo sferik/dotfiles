@@ -1,3 +1,4 @@
+alias be='bundle exec'
 alias cd..='cd ..'
 alias df='df -h'
 alias du='du -h'
