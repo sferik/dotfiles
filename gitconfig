@@ -22,6 +22,7 @@
   st = status -bs
   ci = commit
   br = branch
+  bl = blame -C
   co = checkout
   df = diff --word-diff
   lg = log -p
