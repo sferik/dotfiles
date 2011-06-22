@@ -1,7 +1,7 @@
 alias be='bundle exec'
 alias bi='bundle install'
 alias bu='bundle update'
-alias btc='ruby -r rubygems -r mtgox -e "puts MtGox.ticker.last"'
+alias btc='ruby -r rubygems -r tradehill -e "puts TradeHill.ticker.last"'
 alias cd..='cd ..'
 alias df='df -h'
 alias du='du -h'
