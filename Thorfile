@@ -6,6 +6,7 @@ class Dotfiles < Thor
   desc "install", "Install all dotfiles into #{@user}'s home directory"
   method_options :force => :boolean
   def install
+    FileUtils.mkdir_p File.expand_path('~') + "/tmp"
     Dir['*'].each do |file|
       next if %w[Gemfile Gemfile.lock Thorfile README.md LICENSE.md screenshots].include? file
       case file
