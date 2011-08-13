@@ -38,7 +38,7 @@ If you managed to make it this far without ever reading [In the Beginning was
 the Command Line](http://www.cryptonomicon.com/beginning.html), don't bother
 going any farther before you do. Seriously.
 
-Installation
+<a name="installation">Installation</a>
 ------------
     git clone git://github.com/sferik/dotfiles
     cd dotfiles
