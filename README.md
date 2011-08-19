@@ -1,9 +1,7 @@
-Erik Michaels-Ober's Dotfiles
-=============================
+# Erik Michaels-Ober's Dotfiles
 These are files to configure a shell just the way I like it.
 
-Design Principles
------------------
+## Design Principles
 With appologies to Stanley Kubrick:
 
 > This is my prompt.
@@ -38,16 +36,13 @@ If you managed to make it this far without ever reading [In the Beginning was
 the Command Line](http://www.cryptonomicon.com/beginning.html), don't bother
 going any farther before you do. Seriously.
 
-<a name="installation">Installation</a>
-------------
+## <a name="installation">Installation</a>
     git clone git://github.com/sferik/dotfiles
     cd dotfiles
     bundle install
     bundle exec thor dotfiles:install
 
-Inspiration
------------
+## Inspiration
 These files are an amalgamation of wisdom collected over the years, the sources
 of which are too numerous to list. The idea to put them in a repository with an
-install script was taken from [Ryan
-Bates](https://github.com/ryanb/dotfiles).
+install script was taken from [Ryan Bates](https://github.com/ryanb/dotfiles).
