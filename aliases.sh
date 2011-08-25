@@ -41,3 +41,9 @@ alias rbx='rvm use rbx-head'
 alias ree='rvm use ree'
 alias ruby-head='rvm use ruby-head'
 alias gemcutter='ssh rubycentral@rubycentral.com'
+function gfgrep {
+  grep "$1" */Gemfile.lock
+}
+function gsgrep {
+  grep "$1" */*.gemspec
+}
