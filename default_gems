@@ -1,5 +1,6 @@
 builder
 bundler
+heroku
 hoe
 minitest
 pry
@@ -10,4 +11,5 @@ rbench
 ruby-graphviz
 rubygems-test
 session
+taps
 thor
