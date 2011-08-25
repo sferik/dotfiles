@@ -6,7 +6,7 @@ With appologies to Stanley Kubrick:
 
 > This is my prompt.
 >
-> ![PS1](https://github.com/sferik/dotfiles/raw/master/screenshots/ps1.png "PS1")
+> ![PS1](https://github.com/sferik/dotfiles/raw/master/.ps1.png "PS1")
 >
 > There are many others like it, but this one is mine. My prompt is my best
 > friend. It is my life. I must master it as I must master my life. Without me,
@@ -16,16 +16,11 @@ With appologies to Stanley Kubrick:
 
 My prompt has two lines. The first line tells me where I am. It includes
 `whoami`, my `hostname`, my `pwd`, and my `git branch`, if I am within a
-repository. The `pwd` contains a trailing slash and is colorized to match the
-output of `ls -FG` which I `alias` to `ls`.
+repository.
 
 Incidentally, my computer is named leon, because it is a MacBook
 [Pro](http://www.imdb.com/title/tt0110413/). If convention holds, my next
 computer will be named [upin](http://www.imdb.com/title/tt1193138/).
-
-The second line is where the magic happens. It is designed to mirror an `irb`
-prompt. This may seem confusing, but I find it quite natural to switch
-seamlessly between `bash` and `irb`.
 
 My `.vimrc` is the product of 10 years of tweaking and tuning. Using it is like
 having an extra arm. I like `vim` because it makes switching between my editor
@@ -37,6 +32,7 @@ the Command Line](http://www.cryptonomicon.com/beginning.html), don't bother
 going any farther before you do. Seriously.
 
 ## <a name="installation">Installation</a>
+    gem install bundler thor
     git clone git://github.com/sferik/dotfiles
     cd dotfiles
     bundle install
