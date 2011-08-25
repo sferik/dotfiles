@@ -2,6 +2,8 @@ builder
 bundler
 hoe
 minitest
+pry
+pry-doc
 rak
 rake
 rbench
