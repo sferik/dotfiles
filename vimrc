@@ -45,8 +45,8 @@ set listchars=tab:>-,trail:·,eol:$
 
 " Make backup file
 set backup
-set backupdir=~/tmp
-set directory=~/tmp
+set backupdir=/tmp
+set directory=/tmp
 
 " Turn on wild menu
 set wildmenu
