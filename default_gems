@@ -13,4 +13,5 @@ ruby-graphviz
 rubygems-test
 session
 taps
+thin
 thor
