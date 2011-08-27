@@ -1,5 +1,6 @@
 builder
 bundler
+foreman
 heroku
 hoe
 minitest
