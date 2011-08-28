@@ -1,5 +1,7 @@
 builder
 bundler
+capistrano
+capistrano-ext
 foreman
 heroku
 hoe
