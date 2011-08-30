@@ -41,7 +41,8 @@ alias macruby='rvm use macruby-0.10'
 alias rbx='rvm use rbx-head'
 alias ree='rvm use ree'
 alias ruby-head='rvm use ruby-head'
-alias gemcutter='ssh rubycentral@rubycentral.com'
+alias rubygems='ssh rubycentral@rubycentral.com'
+alias staging='ssh erik@staging.rubygems.org'
 function gfgrep {
   grep "$1" */Gemfile.lock
 }
