@@ -43,6 +43,7 @@ alias ree='rvm use ree'
 alias ruby-head='rvm use ruby-head'
 alias rubygems='ssh erik@rubygems.org'
 alias staging='ssh erik@staging.rubygems.org'
+alias whitespace='find . -not \( -name .svn -prune -o -name .git -prune \) -type f -print0 | xargs -0 sed -i "" -E "s/[[:space:]]*$//"'
 function gfgrep {
   grep "$1" */Gemfile.lock
 }
