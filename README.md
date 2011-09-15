@@ -1,7 +1,7 @@
 # Erik Michaels-Ober's Dotfiles
 These are files to configure a shell just the way I like it.
 
-## Design Principles
+## <a name="design">Design Principles</a>
 With appologies to Stanley Kubrick:
 
 > This is my prompt.
@@ -25,12 +25,13 @@ convention holds, my next computer will be named
 
 My `.vimrc` is the product of 10 years of tweaking and tuning. Using it is like
 having an extra arm. I like `vim` because it makes switching between my editor
-and the command line seamless. If you prefer MacVim, I'd recommend carlhuda's
+and the command line seamless. If you prefer MacVim, I'd recommend
+**[@carlhuda](https://github.com/carlhuda/)**'s
 [janus](https://github.com/carlhuda/janus) distribution.
 
 If you managed to make it this far without ever reading [In the Beginning was
-the Command Line](http://www.cryptonomicon.com/beginning.html), don't bother
-going any farther before you do. Seriously.
+the Command Line](http://www.cryptonomicon.com/beginning.html), stop whatever
+you're doing and read that instead.
 
 ## <a name="installation">Installation</a>
     gem install bundler thor
@@ -39,7 +40,7 @@ going any farther before you do. Seriously.
     bundle install
     bundle exec thor dotfiles:install
 
-## Inspiration
+## <a name="inspiration">Inspiration</a>
 These files are an amalgamation of wisdom collected over the years, the sources
 of which are too numerous to list. The idea to put them in a repository with an
 install script was taken from [Ryan Bates](https://github.com/ryanb/dotfiles).
