@@ -18,9 +18,10 @@ My prompt has two lines. The first line tells me where I am. It includes
 `whoami`, my `hostname`, my `pwd`, and my `git branch`, if I am within a
 repository.
 
-Incidentally, my computer is named leon, because it is a MacBook
-[Pro](http://www.imdb.com/title/tt0110413/). If convention holds, my next
-computer will be named [upin](http://www.imdb.com/title/tt1193138/).
+Incidentally, my computer is named
+[leon](http://www.imdb.com/title/tt0110413/), because it is a MacBook Pro. If
+convention holds, my next computer will be named
+[upin](http://www.imdb.com/title/tt1193138/).
 
 My `.vimrc` is the product of 10 years of tweaking and tuning. Using it is like
 having an extra arm. I like `vim` because it makes switching between my editor
