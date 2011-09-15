@@ -1,5 +1,5 @@
 export INPUTRC="~/.inputrc"
-export PATH="/usr/local/bin:/usr/local/sbin:$PATH:~/bin"
+export PATH="/usr/local/bin:/usr/local/sbin:~/bin:~/.rbenv/bin:$PATH"
 export EDITOR=`which vim`
 # Whenever displaying the prompt, write the previous line to disk.
 export PROMPT_COMMAND="history -a"
@@ -17,8 +17,8 @@ export CC="/usr/bin/gcc-4.2"
 # Git completion
 [[ -s "$HOME/.git-completion.sh" ]] && source "$HOME/.git-completion.sh"
 
-# Load RVM into a shell session
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+# Init rbenv
+eval "$(rbenv init -)"
 
 # Don't put duplicate lines in the history. See bash(1) for more options
 export HISTCONTROL=ignoredups
@@ -67,8 +67,8 @@ function parse_git_branch {
 export LSCOLORS='Exfxcxdxbxegedabagacad'
 
 if [ "$color_prompt" = yes ]; then
-  PS1="\[$(tput bold)\]\[$(tput setaf 2)\]\u@\H \[$(tput setaf 4)\]\w\[$(tput setaf 3)\] \$(parse_git_branch)\[$(tput sgr0)\]\n\[$(tput bold)\]\[$(tput setaf 1)\]\$(~/.rvm/bin/rvm-prompt) \[$(tput sgr0)\]> "
+  PS1="\[$(tput bold)\]\[$(tput setaf 2)\]\u@\H \[$(tput setaf 4)\]\w\[$(tput setaf 3)\] \$(parse_git_branch)\[$(tput sgr0)\]\n\[$(tput bold)\]\[$(tput setaf 1)\]\$(rbenv global) \[$(tput sgr0)\]> "
 else
-  PS1="\u@\H \w \$(parse_git_branch)\n\$(~/.rvm/bin/rvm-prompt) > "
+  PS1="\u@\H \w \$(parse_git_branch)\n\$(rbenv global) > "
 fi
 unset color_prompt

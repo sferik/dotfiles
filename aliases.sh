@@ -25,23 +25,25 @@ alias ssbg='/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSav
 alias su='su -l'
 alias tm='top -o rsize'
 alias tu='top -o cpu'
-alias install_gems='rvm exec sh -c "yes | gem install `cat ~/.default_gems`"'
-alias update_gems='rvm exec sh -c "yes | gem update; yes | gem cleanup"'
-alias update_rubygems='rvm exec sh -c "gem update --system && gem pristine --all"'
 alias rbc_clean='find . -name "*.rbc" -delete'
-alias 186='rvm use 1.8.6-head'
-alias 187='rvm use 1.8.7-head'
-alias 191='rvm use 1.9.1-p378'
-alias 192='rvm use 1.9.2-head'
-alias 193='rvm use 1.9.3-head'
-alias jruby='rvm use jruby'
-alias macruby='rvm use macruby-0.10'
-alias rbx='rvm use rbx-head'
-alias ree='rvm use ree'
-alias ruby-head='rvm use ruby-head'
+alias 186='rbenv global 1.8.6-p420'
+alias 187='rbenv global 1.8.7-p352'
+alias 191='rbenv global 1.9.1-p378'
+alias 192='rbenv global 1.9.2-p290'
+alias 193='rbenv global 1.9.3-preview1'
+alias jruby='rbenv global jruby-1.6.4'
+alias rbx='rbenv global rbx-1.2.4'
+alias ree='rbenv global ree-1.8.7-2011.03'
 alias rubygems='ssh erik@rubygems.org'
 alias staging='ssh erik@staging.rubygems.org'
 alias whitespace='find . -not \( -name .svn -prune -o -name .git -prune \) -type f -print0 | xargs -0 sed -i "" -E "s/[[:space:]]*$//"'
+
+function each_ruby {
+  for v in `rbenv versions --bare`
+  do
+    RBENV_VERSION=$v $*
+  done
+}
 function gfgrep {
   grep "$1" */Gemfile.lock
 }
