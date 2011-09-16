@@ -17,6 +17,9 @@ export CC="/usr/bin/gcc-4.2"
 # Git completion
 [[ -s "$HOME/.git-completion.sh" ]] && source "$HOME/.git-completion.sh"
 
+# Autojump
+[[ -s `brew --prefix`/etc/autojump ]] && source `brew --prefix`/etc/autojump
+
 # Init rbenv
 eval "$(rbenv init -)"
 
