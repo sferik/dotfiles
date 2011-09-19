@@ -36,6 +36,7 @@ alias rbx='rbenv global rbx-1.2.4'
 alias ree='rbenv global ree-1.8.7-2011.03'
 alias rubygems='ssh erik@rubygems.org'
 alias staging='ssh erik@staging.rubygems.org'
+alias travis='ssh travis@ruby3.worker.travis-ci.org'
 alias whitespace='find . -not \( -name .svn -prune -o -name .git -prune \) -type f -print0 | xargs -0 sed -i "" -E "s/[[:space:]]*$//"'
 
 function each_ruby {
