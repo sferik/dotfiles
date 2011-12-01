@@ -1,7 +1,6 @@
 alias be='bundle exec'
 alias bi='bundle install'
 alias bu='bundle update'
-alias c='cd ~/Projects/yardsale_client'
 alias cd..='cd ..'
 alias df='df -h'
 alias du='du -h'
@@ -25,7 +24,6 @@ alias p='cd ~/Projects'
 alias please='sudo'
 alias prettify_json='python -mjson.tool'
 alias reload='source ~/.bashrc'
-alias s='cd ~/Projects/yardsale_server'
 alias ssbg='/System/Library/Frameworks/ScreenSaver.framework/Resources/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine -background'
 alias su='su -l'
 alias tm='top -o rsize'
@@ -43,6 +41,12 @@ alias rubygems='ssh erik@rubygems.org'
 alias staging='ssh erik@staging.rubygems.org'
 alias travis='ssh travis@ruby3.worker.travis-ci.org'
 alias whitespace='find . -not \( -name .svn -prune -o -name .git -prune \) -type f -print0 | xargs -0 sed -i "" -E "s/[[:space:]]*$//"'
+
+# Yardsale
+alias c='cd ~/Projects/yardsale_client'
+alias db='ssh ubuntu@db1.getyardsale.com'
+alias s='cd ~/Projects/yardsale_server'
+alias app='ssh ubuntu@getyardsale.com'
 
 function each_ruby {
   for v in `rbenv versions --bare`
