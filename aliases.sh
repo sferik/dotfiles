@@ -43,10 +43,10 @@ alias travis='ssh travis@ruby3.worker.travis-ci.org'
 alias whitespace='find . -not \( -name .svn -prune -o -name .git -prune \) -type f -print0 | xargs -0 sed -i "" -E "s/[[:space:]]*$//"'
 
 # Yardsale
-alias c='cd ~/Projects/yardsale_client'
-alias db='ssh ubuntu@db1.getyardsale.com'
-alias s='cd ~/Projects/yardsale_server'
-alias app='ssh ubuntu@getyardsale.com'
+alias yc='cd ~/Projects/yardsale_client'
+alias ydb='ssh ubuntu@db1.getyardsale.com'
+alias ys='cd ~/Projects/yardsale_server'
+alias yapp='ssh ubuntu@getyardsale.com'
 
 function each_ruby {
   for v in `rbenv versions --bare`
