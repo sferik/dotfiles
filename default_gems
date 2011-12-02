@@ -2,6 +2,7 @@ bundler
 capistrano
 capistrano-ext
 foreman
+gemcutter
 heroku
 pry
 pry-doc
