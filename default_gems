@@ -3,6 +3,7 @@ capistrano
 capistrano-ext
 foreman
 gemcutter
+growl_notify
 heroku
 pry
 pry-doc
