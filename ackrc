@@ -1,1 +1,2 @@
---pager=less -r
+--pager=less -R
+--ignore-dir=coverage
