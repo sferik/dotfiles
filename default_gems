@@ -3,13 +3,13 @@ capistrano
 capistrano-ext
 foreman
 gemcutter
-growl_notify
 heroku
 pry
 pry-doc
 rake
 rb-fsevent
 rbench
+ruby_gntp
 ruby-graphviz
 rubygems-test
 taps
