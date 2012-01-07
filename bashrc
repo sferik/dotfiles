@@ -1,5 +1,6 @@
 export INPUTRC="~/.inputrc"
 export PATH="/usr/local/bin:/usr/local/sbin:~/bin:~/.rbenv/bin:$PATH"
+export NODE_PATH="/usr/local/lib/node_modules"
 export EDITOR=`which vim`
 # Whenever displaying the prompt, write the previous line to disk.
 export PROMPT_COMMAND="history -a"
