@@ -3,6 +3,7 @@ capistrano
 capistrano-ext
 foreman
 gemcutter
+gist
 heroku
 pry
 pry-doc
