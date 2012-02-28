@@ -10,6 +10,7 @@ pry-doc
 rake
 rb-fsevent
 rbench
+rbenv-rehash
 ruby_gntp
 ruby-graphviz
 rubygems-test
