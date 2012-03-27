@@ -1,5 +1,6 @@
 alias be='bundle exec'
 alias bi='bundle install'
+alias bo='bundle outdated'
 alias bu='bundle update'
 alias cd..='cd ..'
 alias df='df -h'
