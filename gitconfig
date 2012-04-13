@@ -1,6 +1,9 @@
 [user]
-  name = Erik Michaels-Ober
   email = sferik@gmail.com
+  name = Erik Michaels-Ober
+[gist]
+  browse = true
+  private = true
 [color]
   branch = auto
   diff = auto
@@ -10,24 +13,25 @@
   local = yellow
   remote = green
 [color "diff"]
-  meta = yellow bold
   frag = magenta bold
-  old = red bold
+  meta = yellow bold
   new = green bold
+  old = red bold
 [color "status"]
   added = yellow
   changed = green
   untracked = cyan
 [alias]
-  st = status -bs
-  ci = commit
   br = branch
   bl = blame -C
+  ci = commit
   co = checkout
   df = diff --word-diff
-  lg = log -p
   l1 = log --oneline --decorate
+  lg = log -p
+  st = status -bs
 [core]
+  excludesfile = /Users/erik/.gitignore_global
   quotepath = false
 [push]
   default = tracking
