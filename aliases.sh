@@ -1,3 +1,16 @@
+# Ruby implementations
+alias 186='rbenv shell 1.8.6-p420'
+alias 187='rbenv shell 1.8.7-p358'
+alias 191='rbenv shell 1.9.1-p378'
+alias 192='rbenv shell 1.9.2-p290'
+alias 193='rbenv shell 1.9.3-p125'
+alias jruby='rbenv shell jruby-1.6.6'
+alias rbx='rbenv shell rbx-1.2.4'
+alias ree='rbenv shell ree-1.8.7-2012.01'
+
+alias go='gem outdated'
+alias gu='gem update'
+
 alias be='bundle exec'
 alias bi='bundle install'
 alias bo='bundle outdated'
@@ -35,17 +48,10 @@ alias rc='./script/rails console'
 alias rd='./script/rails dbconsole'
 alias rg='./script/rails generate'
 alias rs='./script/rails server'
-alias 186='rbenv shell 1.8.6-p420'
-alias 187='rbenv shell 1.8.7-p358'
-alias 191='rbenv shell 1.9.1-p378'
-alias 192='rbenv shell 1.9.2-p290'
-alias 193='rbenv shell 1.9.3-p125'
-alias jruby='rbenv shell jruby-1.6.6'
-alias rbx='rbenv shell rbx-2.0.0-dev'
-alias ree='rbenv shell ree-1.8.7-2012.01'
+
 alias rubygems='ssh erik@rubygems.org'
 alias staging='ssh erik@staging.rubygems.org'
-alias travis='ssh travis@ruby3.worker.travis-ci.org'
+
 alias whitespace='find . -not \( -name .svn -prune -o -name .git -prune \) -type f -print0 | xargs -0 sed -i "" -E "s/[[:space:]]*$//"'
 
 function each_ruby {
