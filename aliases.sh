@@ -50,7 +50,6 @@ alias tu='top -o cpu'
 alias rbc_clean='find . -name "*.rbc" -delete'
 alias rc='./script/rails console'
 alias rd='./script/rails dbconsole'
-alias rg='./script/rails generate'
 alias rs='./script/rails server'
 
 alias rubygems='ssh erik@rubygems.org'
