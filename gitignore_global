@@ -5,6 +5,7 @@
 *.dll
 *.exe
 *.o
+*.rbc
 *.so
 
 # Packages #
