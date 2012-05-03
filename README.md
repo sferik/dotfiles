@@ -1,7 +1,7 @@
 # Erik Michaels-Ober's Dotfiles
 These are files to configure a shell just the way I like it.
 
-## <a name="design"></a>Design Principles
+## Design Principles
 With appologies to Stanley Kubrick:
 
 > This is my prompt.
@@ -33,14 +33,14 @@ If you managed to make it this far without ever reading [In the Beginning was
 the Command Line](http://www.cryptonomicon.com/beginning.html), stop whatever
 you're doing and read that instead.
 
-## <a name="installation"></a>Installation
+## Installation
     gem install bundler thor
     git clone git://github.com/sferik/dotfiles
     cd dotfiles
     bundle install
     bundle exec thor dotfiles:install
 
-## <a name="inspiration"></a>Inspiration
+## Inspiration
 These files are an amalgamation of wisdom collected over the years, the sources
 of which are too numerous to list. The idea to put them in a repository with an
 install script was taken from [Ryan Bates](https://github.com/ryanb/dotfiles).
