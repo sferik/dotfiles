@@ -1,3 +1,4 @@
+bigdecimal
 bundler
 capistrano
 capistrano-ext
@@ -5,14 +6,18 @@ foreman
 gemcutter
 gist
 heroku
+io-console
+json
+minitest
 pry
 pry-doc
 rake
 rb-fsevent
 rbench
 rbenv-rehash
-ruby_gntp
+rdoc
 ruby-graphviz
+ruby_gntp
 rubygems-test
 taps
 thin
