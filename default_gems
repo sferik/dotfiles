@@ -11,6 +11,7 @@ json
 minitest
 pry
 pry-doc
+puma
 rake
 rb-fsevent
 rbench
