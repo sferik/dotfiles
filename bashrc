@@ -22,7 +22,7 @@ export CC="/usr/bin/gcc-4.2"
 [[ -s `brew --prefix`/etc/autojump ]] && source `brew --prefix`/etc/autojump
 
 # Init rbenv
-eval "$(rbenv init -)"
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # Don't put duplicate lines in the history. See bash(1) for more options
 export HISTCONTROL=ignoredups
