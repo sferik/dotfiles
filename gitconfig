@@ -35,3 +35,5 @@
   quotepath = false
 [push]
   default = tracking
+[branch]
+  autosetuprebase = always
