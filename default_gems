@@ -4,9 +4,9 @@ capistrano
 capistrano-ext
 foreman
 gemcutter
-gist
 heroku
 io-console
+jist
 json
 minitest
 pry
