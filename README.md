@@ -1,5 +1,5 @@
 # Erik Michaels-Ober's Dotfiles
-These are files to configure a shell just the way I like it.
+These are the files I use to configure my shell just the way I like it.
 
 ## Design Principles
 With appologies to Stanley Kubrick:
@@ -18,27 +18,18 @@ My prompt has two lines. The first line tells me where I am. It includes
 `whoami`, my `hostname`, my `pwd`, and my `git branch`, if I am within a
 repository.
 
-Incidentally, my computer is named
-[leon](http://www.imdb.com/title/tt0110413/), because it is a MacBook Pro. If
-convention holds, my next computer will be named
-[upin](http://www.imdb.com/title/tt1193138/).
-
-My `.vimrc` is the product of 10 years of tweaking and tuning. Using it is like
-having an extra arm. I like `vim` because it makes switching between my editor
-and the command line seamless. If you prefer MacVim, I'd recommend
-**[@carlhuda](https://github.com/carlhuda/)**'s
-[janus](https://github.com/carlhuda/janus) distribution.
+My `.vimrc` is the product of 10 years of careful tuning. Using it is like
+having an extra arm.
 
 If you managed to make it this far without ever reading [In the Beginning was
 the Command Line](http://www.cryptonomicon.com/beginning.html), stop whatever
 you're doing and read that instead.
 
 ## Installation
-    gem install bundler thor
+    gem install thor
     git clone git://github.com/sferik/dotfiles
     cd dotfiles
-    bundle install
-    bundle exec thor dotfiles:install
+    thor dotfiles:install
 
 ## Inspiration
 These files are an amalgamation of wisdom collected over the years, the sources
