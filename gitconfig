@@ -31,7 +31,7 @@
   lg = log -p
   st = status -bs
 [core]
-  excludesfile = /Users/erik/.gitignore_global
+  excludesfile = /Users/sferik/.gitignore_global
   quotepath = false
 [push]
   default = tracking
