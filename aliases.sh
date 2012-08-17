@@ -52,7 +52,7 @@ alias rc='./script/rails console'
 alias rd='./script/rails dbconsole'
 alias rs='./script/rails server'
 
-alias rubygems='ssh erik@rubygems.org'
+alias rubygems='ssh erik@b1.rubygems.org'
 alias staging='ssh erik@staging.rubygems.org'
 
 alias whitespace='find . -not \( -name .svn -prune -o -name .git -prune \) -type f -print0 | xargs -0 sed -i "" -E "s/[[:space:]]*$//"'
