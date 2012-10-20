@@ -12,6 +12,7 @@ alias ree='rbenv shell ree-1.8.7-2012.02'
 alias go='gem outdated'
 alias gu='gem update'
 
+alias ba='bundle exec autotest -c'
 alias be='bundle exec'
 alias bi='bundle install'
 alias bo='bundle outdated'
