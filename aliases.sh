@@ -6,7 +6,7 @@ alias 192='rbenv shell 1.9.2-p290'
 alias 193='rbenv shell 1.9.3-p286'
 alias 200='rbenv shell 2.0.0-preview1'
 alias jruby='rbenv shell jruby-1.7.0'
-alias rbx='rbenv shell rbx-1.2.4'
+alias rbx='rbenv shell rbx-2.0.0-rc1'
 alias ree='rbenv shell ree-1.8.7-2012.02'
 
 alias go='gem outdated'
