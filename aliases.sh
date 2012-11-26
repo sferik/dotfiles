@@ -1,6 +1,6 @@
 # Ruby implementations
 alias 186='rbenv shell 1.8.6-p420'
-alias 187='rbenv shell 1.8.7-p358'
+alias 187='rbenv shell 1.8.7-p370'
 alias 191='rbenv shell 1.9.1-p378'
 alias 192='rbenv shell 1.9.2-p290'
 alias 193='rbenv shell 1.9.3-p327'
