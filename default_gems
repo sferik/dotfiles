@@ -10,6 +10,7 @@ json
 minitest
 pry
 pry-doc
+pry-nav
 puma
 rake
 rb-fsevent
