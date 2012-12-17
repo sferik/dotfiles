@@ -33,3 +33,8 @@
 ehthumbs.db
 Icon?
 Thumbs.db
+
+# Vagrant files #
+#################
+.vagrant
+Vagrantfile
