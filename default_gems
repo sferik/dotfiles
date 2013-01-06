@@ -3,7 +3,6 @@ capistrano
 capistrano-ext
 foreman
 gemcutter
-heroku
 interactive_editor
 jist
 json
