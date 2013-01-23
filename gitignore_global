@@ -38,3 +38,7 @@ Thumbs.db
 #################
 .vagrant
 Vagrantfile
+
+# Rubinius files #
+##################
+.rbx
