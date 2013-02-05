@@ -4,6 +4,7 @@ export NODE_PATH="/usr/local/lib/node_modules"
 export EDITOR=`which vim`
 # Whenever displaying the prompt, write the previous line to disk.
 export PROMPT_COMMAND="history -a"
+export RUBYGEMS_EC2_DB1=ec2-54-245-133-190.us-west-2.compute.amazonaws.com
 export RUBYGEMS_EC2_LB1=54.245.255.174
 
 # Source global definitions
