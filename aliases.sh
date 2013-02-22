@@ -8,7 +8,7 @@ alias 193='rbenv shell 1.9.3-p385'
 alias 19=193
 alias 200='rbenv shell 2.0.0-rc2'
 alias 20=200
-alias jruby='rbenv shell jruby-1.7.2'
+alias jruby='rbenv shell jruby-1.7.3'
 alias rbx='rbenv shell rbx-2.0.0-rc1'
 alias ree='rbenv shell ree-1.8.7-2012.02'
 
