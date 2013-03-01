@@ -1,6 +1,6 @@
 ---
-install: --no-rdoc --no-ri
-update: --no-rdoc --no-ri
+install: --no-rdoc --no-ri --no-doc
+update: --no-rdoc --no-ri --no-doc
 benchmark: false
 backtrace: false
 update_sources: true
