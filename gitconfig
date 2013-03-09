@@ -37,3 +37,5 @@
   default = tracking
 [branch]
   autosetuprebase = always
+[help]
+  autocorrect = 1
