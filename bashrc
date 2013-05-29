@@ -2,7 +2,7 @@ export EDITOR=`which vim`
 export INPUTRC="~/.inputrc"
 export MAKE_OPTS="-j 4"
 export NODE_PATH="/usr/local/lib/node_modules"
-export PATH="/usr/local/bin:/usr/local/sbin:~/bin:~/.rbenv/bin:$PATH"
+export PATH="/usr/local/bin:/usr/local/sbin:~/bin:~/.rbenv/bin:/usr/local/share/npm/bin:$PATH"
 # Whenever displaying the prompt, write the previous line to disk.
 export PROMPT_COMMAND="history -a"
 export RUBYGEMS_EC2_DB1=ec2-54-245-133-190.us-west-2.compute.amazonaws.com
