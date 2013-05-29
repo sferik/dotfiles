@@ -26,7 +26,7 @@
 	co = checkout
 	df = diff --word-diff
 	l1 = log --oneline --decorate
-	lg = log -p
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 	st = status -bs
 [core]
 	excludesfile = /Users/sferik/.gitignore_global
