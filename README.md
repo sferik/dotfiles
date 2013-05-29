@@ -6,7 +6,7 @@ With appologies to Stanley Kubrick:
 
 > This is my prompt.
 >
-> ![PS1](https://github.com/sferik/dotfiles/raw/master/.ps1.png "PS1")
+> <img src="https://github.com/sferik/dotfiles/raw/master/.fish_prompt.png" width="456" height="25">
 >
 > There are many others like it, but this one is mine. My prompt is my best
 > friend. It is my life. I must master it as I must master my life. Without me,
@@ -14,9 +14,8 @@ With appologies to Stanley Kubrick:
 > are defenders of my country, we are the masters of our enemy, we are the
 > saviors of my life. So be it, until there is no enemy, but peace. Amen.
 
-My prompt has two lines. The first line tells me where I am. It includes
-`whoami`, my `hostname`, my `pwd`, and my `git branch`, if I am within a
-repository.
+My prompt tells me where I am. It includes my username, hostname, working
+directory, and git branch.
 
 My `.vimrc` is the product of 10 years of careful tuning. Using it is like
 having an extra arm.
