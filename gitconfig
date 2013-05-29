@@ -1,39 +1,39 @@
 [user]
-  email = sferik@gmail.com
-  name = Erik Michaels-Ober
+	email = sferik@gmail.com
+	name = Erik Michaels-Ober
 [gist]
-  browse = true
-  private = true
+	browse = true
+	private = true
 [color]
-  branch = auto
-  diff = auto
-  status = auto
+	branch = auto
+	diff = auto
+	status = auto
 [color "branch"]
-  current = yellow reverse
-  local = yellow
-  remote = green
+	current = yellow reverse
+	local = yellow
+	remote = green
 [color "diff"]
-  frag = magenta bold
-  meta = yellow bold
-  new = green bold
-  old = red bold
+	frag = magenta bold
+	meta = yellow bold
+	new = green bold
+	old = red bold
 [color "status"]
-  added = yellow
-  changed = green
-  untracked = cyan
+	added = yellow
+	changed = green
+	untracked = cyan
 [alias]
-  bl = blame -C
-  co = checkout
-  df = diff --word-diff
-  l1 = log --oneline --decorate
-  lg = log -p
-  st = status -bs
+	bl = blame -C
+	co = checkout
+	df = diff --word-diff
+	l1 = log --oneline --decorate
+	lg = log -p
+	st = status -bs
 [core]
-  excludesfile = /Users/sferik/.gitignore_global
-  quotepath = false
+	excludesfile = /Users/sferik/.gitignore_global
+	quotepath = false
 [push]
-  default = tracking
+	default = tracking
 [branch]
-  autosetuprebase = always
+	autosetuprebase = always
 [help]
-  autocorrect = 1
+	autocorrect = 1
