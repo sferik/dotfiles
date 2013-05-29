@@ -1,5 +1,4 @@
 # Ruby implementations
-alias 186='rbenv shell 1.8.6-p420'
 alias 187='rbenv shell 1.8.7-p371'
 alias 18=187
 alias 191='rbenv shell 1.9.1-p378'
@@ -10,17 +9,10 @@ alias 200='rbenv shell 2.0.0-p195'
 alias 20=200
 alias jruby='rbenv shell jruby-1.7.4'
 alias rbx='rbenv shell rbx-2.0.0-dev'
-alias ree='rbenv shell ree-1.8.7-2012.02'
 
-alias go='gem outdated'
-alias gu='gem update'
-
-alias ba='bundle exec autotest -c'
 alias be='bundle exec'
 alias bi='bundle install'
 alias bo='bundle outdated'
-alias bro='brew outdated'
-alias bru='brew update'
 alias bu='bundle update'
 alias cd..='cd ..'
 alias df='df -h'

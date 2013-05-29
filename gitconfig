@@ -22,9 +22,7 @@
   changed = green
   untracked = cyan
 [alias]
-  br = branch
   bl = blame -C
-  ci = commit
   co = checkout
   df = diff --word-diff
   l1 = log --oneline --decorate
