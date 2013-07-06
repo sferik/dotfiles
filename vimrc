@@ -1,6 +1,8 @@
 " This setting prevents vim from emulating the original vi's bugs and limitations.
 set nocompatible
 
+set tags=.git/tags
+
 " Set default encoding to UTF-8.
 set encoding=utf-8 fileencodings=
 
