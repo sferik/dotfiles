@@ -142,3 +142,7 @@ autocmd BufWritePre * :%s/\s\+$//e
 "highlight ExtraTabs ctermbg=red guibg=red
 let ruby_space_errors = 1
 let c_space_errors = 1
+
+execute pathogen#infect()
+highlight SignColumn ctermbg=black
+set runtimepath^=~/.vim/bundle/ctrlp.vim
