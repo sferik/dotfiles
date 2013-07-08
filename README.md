@@ -6,7 +6,7 @@ With appologies to Stanley Kubrick:
 
 > This is my prompt.
 >
-> <img src="https://github.com/sferik/dotfiles/raw/master/.fish_prompt.png" width="456" height="25">
+> ![](https://github.com/sferik/dotfiles/raw/master/.fish_prompt.png)
 >
 > There are many others like it, but this one is mine. My prompt is my best
 > friend. It is my life. I must master it as I must master my life. Without me,
