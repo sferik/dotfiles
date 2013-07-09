@@ -22,4 +22,5 @@ rubygems-test
 taps
 thin
 thor
+travis
 twurl
