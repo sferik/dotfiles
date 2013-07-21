@@ -2,7 +2,7 @@
 These are the files I use to configure my shell just the way I like it.
 
 ## Design Principles
-With appologies to Stanley Kubrick:
+With apologies to Stanley Kubrick:
 
 > This is my prompt.
 >
