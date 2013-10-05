@@ -1,3 +1,3 @@
 function rbx
-  rbenv shell rbx-2.0.0-dev
+  rbenv shell rbx-2.0.0
 end
