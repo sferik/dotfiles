@@ -1,3 +1,3 @@
 function jruby
-  rbenv shell jruby-1.7.9
+  rbenv shell jruby-1.7.10
 end
