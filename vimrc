@@ -139,10 +139,9 @@ set viminfo='1000,\"1000,:20,%,n~/.viminfo
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
 
 autocmd BufWritePre * :%s/\s\+$//e
-"highlight ExtraTabs ctermbg=red guibg=red
+" highlight ExtraTabs ctermbg=red guibg=red
 let ruby_space_errors = 1
 let c_space_errors = 1
 
-execute pathogen#infect()
 highlight SignColumn ctermbg=black
 set runtimepath^=~/.vim/bundle/ctrlp.vim
