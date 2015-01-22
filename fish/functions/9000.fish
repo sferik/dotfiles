@@ -1,3 +1,3 @@
 function 9000
-  rbenv shell jruby-9000-dev
+  rbenv shell jruby-9.0.0.0-pre1
 end
