@@ -46,3 +46,7 @@ Vagrantfile
 # Rubinius files #
 ##################
 .rbx
+
+# Crystal files #
+##################
+.crystal
