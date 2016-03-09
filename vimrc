@@ -110,8 +110,8 @@ set statusline=%F%h%m%w%r\ %Y\ (%{&ff})%=\ %c%V,\ %l/%L\ (%P)
 " Make backspace work normal
 set backspace=2
 
-" Use mouse everywhere
-set mouse=a
+" Disable mouse input
+set mouse=
 
 " Tell us when anything is changed via :...
 set report=0
