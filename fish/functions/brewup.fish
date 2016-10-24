@@ -1,5 +1,5 @@
 function brewup
   brew update
-  brew upgrade --all
+  brew upgrade
   brew cleanup
 end
