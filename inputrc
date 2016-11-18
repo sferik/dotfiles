@@ -18,3 +18,8 @@ set completion-ignore-case On
 "\e[5~": beginning-of-history
 "\e[6~": end-of-history
 "\e[2~": quoted-insert
+
+# Allow non-ASCII input
+set input-meta on
+set output-meta on
+set convert-meta off
