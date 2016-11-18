@@ -31,14 +31,14 @@
 [core]
   excludesfile = /Users/sferik/.gitignore_global
   quotepath = false
+  whitespace = trailing-space,space-before-tab
 [push]
   default = tracking
 [branch]
   autosetuprebase = always
 [help]
   autocorrect = 1
-[merge]
-  tool = threesome
-[mergetool "threesome"]
-  cmd = "vim -f $BASE $LOCAL $REMOTE $MERGED -c 'ThreesomeInit'"
-  trustExitCode = true
+[diff]
+  mnemonicprefix = true
+[vain]
+  default = eeee
