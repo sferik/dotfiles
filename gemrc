@@ -1,6 +1,5 @@
 ---
-install: --no-rdoc --no-ri --no-doc
-update: --no-rdoc --no-ri --no-doc
+gem: --no-document
 benchmark: false
 backtrace: false
 update_sources: true
